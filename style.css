@@ -1,0 +1,34 @@
+
+.navbar-brand {
+  font-weight: bold;
+}
+.list-group-item {
+  background-color: #212529;
+  color: white;
+  border-color: white;
+}
+
+.container-self {
+  width: 90%;
+}
+
+.article {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  color: #212529;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .card {
+    width: 49%;
+  }
+}
